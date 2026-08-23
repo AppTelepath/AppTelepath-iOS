@@ -17,3 +17,98 @@
 //"清空" = "Clear";
 //"刷新" = "Refresh";
 //"暂无内存泄漏记录。" = "No memory leak record.";
+
+/* 端内 UI —— 随客户 App 发到他们自己的用户手里。
+ * 键即中文原文；查不到回落原文（`TLPUtility localizedString:`）。
+ * 由 `scripts/check-localization.py` 守着：漏译、格式符对不上、残留键都会拦下。 */
+
+
+/* —— 端内连接面板 —— */
+"Web 控制台" = "Web console";
+"复制" = "Copy";
+"摇一摇反馈" = "Shake to report";
+"我的反馈" = "My reports";
+"%lu 个问题待回复" = "%lu awaiting your reply";
+"%lu 条 · %lu 条处理中" = "%lu total · %lu in progress";
+"%lu 条" = "%lu total";
+"允许远程修改" = "Allow remote changes";
+"SDK 版本" = "SDK version";
+"分发渠道" = "Distribution";
+"隐藏悬浮入口" = "Hide floating button";
+"停止 AppTelepath" = "Stop AppTelepath";
+"远程调试未连接" = "Not connected";
+"在电脑上打开控制台，用同一个 workspace 连接" = "Open the console on your computer and connect with the same workspace";
+"远程调试已连接" = "Connected";
+"当前 %ld 个控制端已连接" = "Consoles connected: %ld";
+"远程调试已就绪" = "Ready";
+"暂无控制端连接" = "No console connected";
+"摇动设备打开反馈" = "Shake the device to report";
+"已关闭，长按悬浮球仍可反馈" = "Off — long-press the floating button to report";
+"远程可以删文件、改数据" = "Remote can delete files and modify data";
+"只读。点击与输入仍可用" = "Read-only. Tap and text input still work";
+"控制台地址已复制" = "Console URL copied";
+"已开启" = "On";
+"已关闭" = "Off";
+"尚未配置，无法修改" = "Not configured";
+"已允许远程修改" = "Remote changes allowed";
+"已切换为只读" = "Switched to read-only";
+"AppTelepath 已停止" = "AppTelepath stopped";
+
+/* —— 悬浮球（无障碍标签）—— */
+"AppTelepath 远程调试" = "AppTelepath remote debugging";
+"AppTelepath 远程调试，%lu 条反馈有新进展" = "AppTelepath remote debugging, %lu updates";
+"正在远程调试" = "Debugging now";
+"已连接，当前无人调试" = "Connected, nobody debugging";
+"连接中" = "Connecting";
+"未连接" = "Not connected";
+
+/* —— 我的反馈 —— */
+"已处理" = "Done";
+"处理中" = "In progress";
+"不处理" = "Dismissed";
+"待处理" = "Open";
+"刚刚" = "Just now";
+"%.0f 分钟前" = "%.0fm ago";
+"%.0f 小时前" = "%.0fh ago";
+"%.0f 天前" = "%.0fd ago";
+"待你回复" = "Awaiting your reply";
+"你：" = "You: ";
+"这台设备还没提过反馈。\n重装 App 后旧记录不再显示。" = "No reports from this device yet.\nReports are not kept after reinstalling the app.";
+"回复" = "Reply";
+"你的回答" = "Your reply";
+"取消" = "Cancel";
+"发送" = "Send";
+
+/* —— 提交反馈 —— */
+"描述问题，例如：副标题被截断" = "Describe the issue, e.g. the subtitle is cut off";
+"你是谁？（只问这一次）" = "Who are you? (asked once)";
+"提交" = "Submit";
+"点击画面选择元素" = "Tap the screen to select an element";
+"已选择：%@" = "Selected: %@";
+"请输入反馈内容" = "Enter your feedback";
+"提交中…" = "Submitting…";
+"重试" = "Retry";
+"提交失败" = "Submission failed";
+
+/* —— 分发渠道展示名（连接面板上「Distribution」那一行）—— */
+"模拟器" = "Simulator";
+"开发 / AdHoc / 企业签" = "Development / AdHoc / Enterprise";
+"App Store 正式包" = "App Store build";
+"未知" = "Unknown";
+
+/* —— 插件名与提示（端内插件列表 / 提示条）—— */
+"弱网模拟" = "Weak network";
+"定位模拟" = "Location";
+"Push模拟" = "Push";
+"线程监控" = "Threads";
+"子线程UI监控" = "Off-main-thread UI";
+"Crash记录" = "Crash log";
+"关闭" = "Close";
+"解析payload失败！请检查payload格式是否正确" = "Could not parse the payload — check its format";
+"推送成功" = "Push delivered";
+"已发出，但宿主选择了不展示" = "Sent, but the app chose not to display it";
+
+/* —— 启动闸门告警（NSLog，给接入方开发者看）—— */
+"检测到 App Store 正式包，Telepath 已停止启动。请确认 Podfile 中 Telepath 仅出现在非 App Store 提交用的构建配置里（配置名因工程而异，不一定叫 Debug）。" = "App Store build detected — Telepath did not start. Make sure Telepath is only in build configurations that are never submitted to the App Store (the name varies by project; it is not always Debug).";
+"检测到 TestFlight 构建，Telepath 默认不在此启动。TestFlight 面向真实外部测试者，如确需调试，请显式设置 config.allowTestFlight = YES。" = "TestFlight build detected — Telepath does not start here by default. TestFlight reaches real external testers; set config.allowTestFlight = YES if you really need it.";
+"无法确定构建的分发渠道（既无描述文件也无收据文件）。Telepath 将继续启动，但请自行确认此包不会提交 App Store。" = "Could not determine the distribution channel (no provisioning profile and no receipt). Telepath will start anyway — make sure this build is never submitted to the App Store.";
