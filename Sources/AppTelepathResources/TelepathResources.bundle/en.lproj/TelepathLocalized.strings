@@ -112,3 +112,14 @@
 "检测到 App Store 正式包，Telepath 已停止启动。请确认 Podfile 中 Telepath 仅出现在非 App Store 提交用的构建配置里（配置名因工程而异，不一定叫 Debug）。" = "App Store build detected — Telepath did not start. Make sure Telepath is only in build configurations that are never submitted to the App Store (the name varies by project; it is not always Debug).";
 "检测到 TestFlight 构建，Telepath 默认不在此启动。TestFlight 面向真实外部测试者，如确需调试，请显式设置 config.allowTestFlight = YES。" = "TestFlight build detected — Telepath does not start here by default. TestFlight reaches real external testers; set config.allowTestFlight = YES if you really need it.";
 "无法确定构建的分发渠道（既无描述文件也无收据文件）。Telepath 将继续启动，但请自行确认此包不会提交 App Store。" = "Could not determine the distribution channel (no provisioning profile and no receipt). Telepath will start anyway — make sure this build is never submitted to the App Store.";
+"有新进展" = "Updated";
+
+/* —— 「还是不行」:对某次「已处理」的否决。刻意没有配套的「修好了」 —— */
+"还是不行" = "Still not fixed";
+"这条会重新回到待处理。可以补一句,也可以直接发。" = "This goes back to the open list. Add a line if you like, or just send.";
+"哪里还不对(可不填)" = "What is still wrong (optional)";
+"你（还是不行）：" = "You (still not fixed): ";
+"没发出去" = "Not sent";
+"网络不通,稍后再试一次" = "No connection — try again in a moment";
+"知道了" = "OK";
+"只保留最近提交的这些,更早的不再列出" = "Only your most recent reports are kept — older ones are no longer listed";
