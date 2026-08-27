@@ -114,11 +114,13 @@
 "无法确定构建的分发渠道（既无描述文件也无收据文件）。Telepath 将继续启动，但请自行确认此包不会提交 App Store。" = "Could not determine the distribution channel (no provisioning profile and no receipt). Telepath will start anyway — make sure this build is never submitted to the App Store.";
 "有新进展" = "Updated";
 
-/* —— 「还是不行」:对某次「已处理」的否决。刻意没有配套的「修好了」 —— */
-"还是不行" = "Still not fixed";
+/* —— 「重新打开」:对某次「已处理」的否决。刻意没有配套的「修好了」。
+   用 issue 跟踪里的标准动词而不是状态口吻:「Still not fixed」读起来像个状态标签,
+   而它其实是要人点的按钮。 —— */
+"重新打开" = "Reopen";
 "这条会重新回到待处理。可以补一句,也可以直接发。" = "This goes back to the open list. Add a line if you like, or just send.";
 "哪里还不对(可不填)" = "What is still wrong (optional)";
-"你（还是不行）：" = "You (still not fixed): ";
+"你（重新打开）：" = "You (reopened): ";
 "没发出去" = "Not sent";
 "网络不通,稍后再试一次" = "No connection — try again in a moment";
 "知道了" = "OK";
