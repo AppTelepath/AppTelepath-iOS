@@ -25,8 +25,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Telepath",
-            url: "https://github.com/AppTelepath/AppTelepath-iOS/releases/download/3.6.0/Telepath-3.6.0.zip",
-            checksum: "23d8a7098aaeefe444be455d97c697e31af37f6205108d1bfe9f568522011350"
+            url: "https://github.com/AppTelepath/AppTelepath-iOS/releases/download/3.7.0/Telepath-3.7.0.zip",
+            checksum: "098815302240d45bdb9a3c075f31c2ba81dd0b58eb9213f79d65da3e4b6855b5"
         ),
         // 资源必须由**普通 target** 交付：binaryTarget 不能声明 resources，
         // 而悬浮球图标与本地化都在 TelepathResources.bundle 里。
