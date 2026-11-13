@@ -85,6 +85,7 @@
 "提交" = "Submit";
 "点击画面选择元素" = "Tap the screen to select an element";
 "已选择：%@" = "Selected: %@";
+"转回原来的方向才能点选元素" = "Rotate back to pick an element";
 "请输入反馈内容" = "Enter your feedback";
 "提交中…" = "Submitting…";
 "重试" = "Retry";
