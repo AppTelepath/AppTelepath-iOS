@@ -14,10 +14,15 @@ Add the SDK to a debug build, and an AI coding agent can inspect the running app
 ## Install
 
 ```ruby
-pod 'AppTelepath', '~> 3.0', :configurations => ['Debug']
+source 'https://github.com/AppTelepath/AppTelepath-iOS.git'
+source 'https://cdn.cocoapods.org/'
+
+pod 'AppTelepath', '~> 3.8.1', :configurations => ['Debug']
 ```
 
-The pod is also published under its original name, `Telepath`. Both names install the same binary — pick one, do not add both. Either way the import is unchanged:
+Version 3.8.1 is available from this public spec source. CocoaPods Trunk indexing is pending after upstream submission and network errors; the published archive and checksum are unchanged.
+
+The original pod name, `Telepath`, is available from the same source. Both names install the same binary — pick one, do not add both. Either way the import is unchanged:
 
 ```swift
 #if TELEPATH_ENABLED
@@ -34,7 +39,7 @@ For trusted, authorized development and testing builds only. Do not place a work
 
 ## Releases
 
-Each [release](https://github.com/PsionicLab/AppTelepath-iOS/releases) contains the XCFramework archive with third-party notices and license texts. The published podspec pins the archive checksum.
+Each [release](https://github.com/AppTelepath/AppTelepath-iOS/releases) contains the XCFramework archive with third-party notices and license texts. The published podspec pins the archive checksum.
 
 ## Support
 
